@@ -1,5 +1,285 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	var module = __webpack_require__(id);
+	return module;
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error('Cannot find module "' + req + '".');
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./src/$$_lazy_route_resource lazy recursive":
 /*!**********************************************************!*\
   !*** ./src/$$_lazy_route_resource lazy namespace object ***!
@@ -51,7 +331,7 @@ var fadeOutAnimation = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"content-blocks about {{contentBlocksClass}} {{blockClass}}\">\n    <section id=\"about\" class=\"content\">\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Profile</h3>\n            <div class=\"row\">\n                <div class=\"col-md-7\">\n                    {{profile.about}}\n                    <img class=\"sign\" alt=\"\" src=\"assets/images/signature.png\">\n                </div>\n                <div class=\"col-md-5\">\n                    <ul class=\"info-list\">\n                        <li>\n                            <strong>Name : </strong>\n                            {{profile.name}}\n                        </li>\n                        <li>\n                            <strong>Date of birth : </strong>\n                            {{profile.birth_date}}\n                        </li>\n                        <li >\n                            <strong>Address : </strong>\n                            {{profile.address}}\n                        </li>\n                        <li>\n                            <strong>Email : </strong>\n                            {{profile.email}}\n                        </li>\n                        <!-- <li>\n                            <strong>Phone : </strong>\n                            + 351 919 373 033\n                        </li> -->\n                        <li>\n                            <strong>Skype : </strong>\n                            {{profile.skype}}\n                        </li>\n                        <li>\n                            <strong>Interests : </strong>\n                            {{profile.interests}}\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n        <div class=\"block-content \">\n            <h3 class=\"block-title\">Skills</h3>\n            <div class=\"row\">\n                <div class=\"col-sm-6\">\n                    <h4>Technical Skills</h4>\n                    <div *ngFor=\"let skill of skillSubscription | async\">\n                      <label class=\"progress-bar-label\" >\n                          {{skill.name}} -\n                          <span>{{skill.years}} years experience</span>\n                      </label>\n                      <div class=\"progress\" >\n                        <ngb-progressbar type=\"warning\" [value]=\"skill.experience_level\" [striped]=\"true\" [animated]=\"true\">\n                          <span>{{skill.experience_level}}%</span>\n                        </ngb-progressbar>\n                      </div>\n                    </div>\n                </div>\n                <div class=\"col-sm-6\">\n                    <h4>Know-how + Good Practices</h4>\n                    <div class=\"row\">\n                        <div class=\"col-sm-6\">\n                            <ul class=\"icon-list\">\n                              <ng-container *ngFor=\"let know of knowSubscription | async\">\n                                <li *ngIf=\"know.type === 'know-how'\">{{know.text}}</li>\n                              </ng-container>\n                            </ul>\n                        </div>\n                        <div class=\"col-sm-6\">\n                            <ul class=\"icon-list\">\n                              <ng-container *ngFor=\"let know of knowSubscription | async\">\n                                <li *ngIf=\"know.type === 'good-practice'\">{{know.text}}</li>\n                              </ng-container>\n                            </ul>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"block-content \">\n            <h3 class=\"block-title\">Experience</h3>\n            <div class=\"timeline experience\">\n                <div class=\"row \">\n                    <div class=\"col-md-12\">\n                        <div class=\"exp-holder\">\n                            <div class=\"exp\" *ngFor=\"let experience of experienceSubscription | async\">\n                                <div class=\"hgroup\">\n                                    <h4>{{experience.name}} </h4>\n                                    <h5>\n                                        {{experience.from}} -\n                                        <span class=\"current\" [ngClass]=\"(experience.to === 'current') ? 'current': ''\">{{experience.to}}</span>\n                                    </h5>\n                                </div>\n                                <p>{{experience.description}}</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Education</h3>\n            <div class=\"timeline education\">\n                <div class=\"row \">\n                    <div class=\"col-md-12\">\n                        <div class=\"exp-holder\">\n                            <div class=\"exp\" *ngFor=\"let education of educationSubscription | async\">\n                                <div class=\"hgroup\">\n                                    <h4>{{education.name}} </h4>\n                                    <h5>{{education.from}} - {{education.to}}</h5>\n                                </div>\n                                <p>{{education.description}}</p>\n                            </div>\n                            <!-- <div class=\"exp\">\n                                <div class=\"hgroup\">\n                                    <h4>Master Degree – Mutation Media </h4>\n                                    <h5>Sept 2015 - Nov 2015</h5>\n                                </div>\n                                <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\n                            </div>\n                            <div class=\"exp\">\n                                <div class=\"hgroup\">\n                                    <h4>School Of Science – Mutation Media </h4>\n                                    <h5>May 2015 - Sept 2015</h5>\n                                </div>\n                                <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\n                            </div> -->\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Courses</h3>\n            <div class=\"row\">\n                <div class=\"col-sm-4 service\" *ngFor=\"let course of courseSubscription | async\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-{{course.icon}}\"></i>\n                    </div>\n                    <h4>{{course.name}}</h4>\n                    <p>\n                        {{course.description}}\n                    </p>\n                </div>\n                <!-- <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-building\"></i>\n                    </div>\n                    <h4>PHP</h4>\n                    <p>Certified Secure Coder PHP</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-image\"></i>\n                    </div>\n                    <h4>HTML5 CSS3</h4>\n                    <p>Learn Bootstrap Development By Building 10 Projects</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Javascript (NodeJS)</h4>\n                    <p>Learn Nodejs by building 10 projects</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-image\"></i>\n                    </div>\n                    <h4>Javasctipt /Typescript</h4>\n                    <p>Compreensive Typescript</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Git</h4>\n                    <p>Learning Git - A Beginners Git Course From Infinite Skills</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Javascript</h4>\n                    <p>JavaScript: Understanding the Weird Parts</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Javascript</h4>\n                    <p>Javascript Design Patterns</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>PHP (Laravel)</h4>\n                    <p>Build a CMS with Laravel</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>PHP (Laravel)</h4>\n                    <p>Build a eCommerce with Laravel</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Asp + Javascript</h4>\n                    <p>Build a social network from scratch</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>AngularJS + Ionic</h4>\n                    <p>Ionic by example</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Javascript ( AngularJs )</h4>\n                    <p>Learn and understand AngularJS</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>MySQL</h4>\n                    <p>Database Design</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>PHP</h4>\n                    <p>Design Patterns Through PHP</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>AngularJs</h4>\n                    <p>Angular Application Development</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>AngularJS + Typescript</h4>\n                    <p>Angular 2 Jumpstart with typescript (ongoing)</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>PHP</h4>\n                    <p>Create your own PHP MVC Framework</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Linux CLI</h4>\n                    <p>Linux comand line essentials</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>NodeJs</h4>\n                    <p>Learn and understand NodeJS</p>\n                </div> -->\n            </div>\n        </div>\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Prizes</h3>\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <div class=\"col-sm-3 awards\" *ngFor=\"let prize of prizeSubscription | async\">\n                        <img alt=\"\" src=\"{{prize.image}}\">\n                    </div>\n                </div>\n            </div>\n        </div>\n        <!--<div class=\"block-content\">\n            <h3 class=\"block-title\">Testimonials</h3>\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <ul class=\"testimonials\">\n                        <li>\n                            <img alt=\"\" src=\"assets/images/testimonials/1.jpg\">\n                            <blockquote>\n                                This template is exactly what we were looking for!\n                                <p class=\"quote\">\n                                    <span>Brendon Rodgers</span>\n                                    - CEO of xyz.com\n                                </p>\n                            </blockquote>\n                        </li>\n                        <li>\n                            <img alt=\"\" src=\"assets/images/testimonials/2.jpg\">\n                            <blockquote>\n                                This template is very nice! Great work\n                                <p class=\"quote\">\n                                    <span>Becky Allwood</span>\n                                    - CEO of abc.com\n                                </p>\n                            </blockquote>\n                        </li>\n                        <li>\n                            <img alt=\"\" src=\"assets/images/testimonials/3.jpg\">\n                            <blockquote>\n                                My work has been significantly simplified.\n                                <p class=\"quote\">\n                                    <span>Elly Page</span>\n                                    - CEO of nfl.com\n                                </p>\n                            </blockquote>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"row text-center\">\n                <div class=\"col-md-12 btn-email\">\n                    <a class=\"btn lowercase\">hello@james.com</a>\n                    <br>\n                    <small>I am available for freelance</small>\n                </div>\n            </div>\n        </div>-->\n    </section>\n</div>\n"
+module.exports = "<div class=\"content-blocks about {{contentBlocksClass}} {{blockClass}}\">\n    <section id=\"about\" class=\"content\">\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Profile</h3>\n            <div class=\"row\">\n                <div class=\"col-md-7\">\n                    {{profile.about}}\n                    <img class=\"sign\" alt=\"\" src=\"assets/images/signature.png\">\n                </div>\n                <div class=\"col-md-5\">\n                    <ul class=\"info-list\">\n                        <li>\n                            <strong>Name : </strong>\n                            {{profile.name}}\n                        </li>\n                        <li>\n                            <strong>Date of birth : </strong>\n                            {{profile.birth_date}}\n                        </li>\n                        <li >\n                            <strong>Address : </strong>\n                            {{profile.address}}\n                        </li>\n                        <li>\n                            <strong>Email : </strong>\n                            {{profile.email}}\n                        </li>\n                        <!-- <li>\n                            <strong>Phone : </strong>\n                            + 351 919 373 033\n                        </li> -->\n                        <li>\n                            <strong>Skype : </strong>\n                            {{profile.skype}}\n                        </li>\n                        <li>\n                            <strong>Interests : </strong>\n                            {{profile.interests}}\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n        <div class=\"block-content \">\n            <h3 class=\"block-title\">Skills</h3>\n            <div class=\"row\">\n                <div class=\"col-sm-6\">\n                    <h4>Technical Skills</h4>\n                    <div *ngFor=\"let skill of skillSubscription | async\">\n                      <label class=\"progress-bar-label\" >\n                          {{skill.name}} -\n                          <span>{{skill.years}} years experience</span>\n                      </label>\n                      <div class=\"progress\" >\n                        <ngb-progressbar type=\"warning\" [value]=\"skill.experience_level\" [striped]=\"true\" [animated]=\"true\">\n                          <span>{{skill.experience_level}}%</span>\n                        </ngb-progressbar>\n                      </div>\n                    </div>\n                </div>\n                <div class=\"col-sm-6\">\n                    <h4>Know-how + Good Practices</h4>\n                    <div class=\"row\">\n                        <div class=\"col-sm-6\">\n                            <ul class=\"icon-list\">\n                              <ng-container *ngFor=\"let know of knowSubscription | async\">\n                                <li *ngIf=\"know.type === 'know-how'\">{{know.text}}</li>\n                              </ng-container>\n                            </ul>\n                        </div>\n                        <div class=\"col-sm-6\">\n                            <ul class=\"icon-list\">\n                              <ng-container *ngFor=\"let know of knowSubscription | async\">\n                                <li *ngIf=\"know.type === 'good-practice'\">{{know.text}}</li>\n                              </ng-container>\n                            </ul>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"block-content \">\n            <h3 class=\"block-title\">Experience</h3>\n            <div class=\"timeline experience\">\n                <div class=\"row \">\n                    <div class=\"col-md-12\">\n                        <div class=\"exp-holder\">\n                            <div class=\"exp\" *ngFor=\"let experience of experienceSubscription | async\">\n                                <div class=\"hgroup\">\n                                    <h4>{{experience.name}} </h4>\n                                    <h5>\n                                        {{experience.from}} -\n                                        <span class=\"current\" [ngClass]=\"experience.to=='current'?'current':''\">{{experience.to}}</span>\n                                    </h5>\n                                </div>\n                                <p>{{experience.description}}</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Education</h3>\n            <div class=\"timeline education\">\n                <div class=\"row \">\n                    <div class=\"col-md-12\">\n                        <div class=\"exp-holder\">\n                            <div class=\"exp\" *ngFor=\"let education of educationSubscription | async\">\n                                <div class=\"hgroup\">\n                                    <h4>{{education.name}} </h4>\n                                    <h5>{{education.from}} - {{education.to}}</h5>\n                                </div>\n                                <p>{{education.description}}</p>\n                            </div>\n                            <!-- <div class=\"exp\">\n                                <div class=\"hgroup\">\n                                    <h4>Master Degree – Mutation Media </h4>\n                                    <h5>Sept 2015 - Nov 2015</h5>\n                                </div>\n                                <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\n                            </div>\n                            <div class=\"exp\">\n                                <div class=\"hgroup\">\n                                    <h4>School Of Science – Mutation Media </h4>\n                                    <h5>May 2015 - Sept 2015</h5>\n                                </div>\n                                <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\n                            </div> -->\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Courses</h3>\n            <div class=\"row\">\n                <div class=\"col-sm-4 service\" *ngFor=\"let course of courseSubscription | async\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-{{course.icon}}\"></i>\n                    </div>\n                    <h4>{{course.name}}</h4>\n                    <p>\n                        {{course.description}}\n                    </p>\n                </div>\n                <!-- <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-building\"></i>\n                    </div>\n                    <h4>PHP</h4>\n                    <p>Certified Secure Coder PHP</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-image\"></i>\n                    </div>\n                    <h4>HTML5 CSS3</h4>\n                    <p>Learn Bootstrap Development By Building 10 Projects</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Javascript (NodeJS)</h4>\n                    <p>Learn Nodejs by building 10 projects</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-image\"></i>\n                    </div>\n                    <h4>Javasctipt /Typescript</h4>\n                    <p>Compreensive Typescript</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Git</h4>\n                    <p>Learning Git - A Beginners Git Course From Infinite Skills</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Javascript</h4>\n                    <p>JavaScript: Understanding the Weird Parts</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Javascript</h4>\n                    <p>Javascript Design Patterns</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>PHP (Laravel)</h4>\n                    <p>Build a CMS with Laravel</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>PHP (Laravel)</h4>\n                    <p>Build a eCommerce with Laravel</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Asp + Javascript</h4>\n                    <p>Build a social network from scratch</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>AngularJS + Ionic</h4>\n                    <p>Ionic by example</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Javascript ( AngularJs )</h4>\n                    <p>Learn and understand AngularJS</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>MySQL</h4>\n                    <p>Database Design</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>PHP</h4>\n                    <p>Design Patterns Through PHP</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>AngularJs</h4>\n                    <p>Angular Application Development</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>AngularJS + Typescript</h4>\n                    <p>Angular 2 Jumpstart with typescript (ongoing)</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>PHP</h4>\n                    <p>Create your own PHP MVC Framework</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>Linux CLI</h4>\n                    <p>Linux comand line essentials</p>\n                </div>\n                <div class=\"col-sm-4 service\">\n                    <div class=\"service-icon\">\n                        <i class=\" fa fa-print\"></i>\n                    </div>\n                    <h4>NodeJs</h4>\n                    <p>Learn and understand NodeJS</p>\n                </div> -->\n            </div>\n        </div>\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Prizes</h3>\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <div class=\"col-sm-3 awards\" *ngFor=\"let prize of prizeSubscription | async\">\n                        <img alt=\"\" src=\"{{prize.image}}\">\n                    </div>\n                </div>\n            </div>\n        </div>\n        <!--<div class=\"block-content\">\n            <h3 class=\"block-title\">Testimonials</h3>\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <ul class=\"testimonials\">\n                        <li>\n                            <img alt=\"\" src=\"assets/images/testimonials/1.jpg\">\n                            <blockquote>\n                                This template is exactly what we were looking for!\n                                <p class=\"quote\">\n                                    <span>Brendon Rodgers</span>\n                                    - CEO of xyz.com\n                                </p>\n                            </blockquote>\n                        </li>\n                        <li>\n                            <img alt=\"\" src=\"assets/images/testimonials/2.jpg\">\n                            <blockquote>\n                                This template is very nice! Great work\n                                <p class=\"quote\">\n                                    <span>Becky Allwood</span>\n                                    - CEO of abc.com\n                                </p>\n                            </blockquote>\n                        </li>\n                        <li>\n                            <img alt=\"\" src=\"assets/images/testimonials/3.jpg\">\n                            <blockquote>\n                                My work has been significantly simplified.\n                                <p class=\"quote\">\n                                    <span>Elly Page</span>\n                                    - CEO of nfl.com\n                                </p>\n                            </blockquote>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"row text-center\">\n                <div class=\"col-md-12 btn-email\">\n                    <a class=\"btn lowercase\">hello@james.com</a>\n                    <br>\n                    <small>I am available for freelance</small>\n                </div>\n            </div>\n        </div>-->\n    </section>\n</div>\n"
 
 /***/ }),
 
@@ -181,7 +461,7 @@ var BlockAboutComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"content-blocks blog {{contentBlocksClass}} {{blockClass}}\">\n    <section class=\"content\">\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">My Blog</h3>\n            <div class=\"col-md-10 col-md-offset-1\">\n                <div class=\"post\">\n                    <div class=\"post-thumbnail\">\n                        <a class=\"open-post\" href=\"post-single.html\">\n                            <img alt=\"\" src=\"assets/images/blog/4.jpg\">\n                        </a>\n                    </div>\n                    <div class=\"post-title\">\n                        <a class=\"open-post\" href=\"post-single.html\">\n                            <h2>Typography for web</h2>\n                        </a>\n                        <p class=\"post-info\">\n                            <span class=\"post-author\">Posted by John Sparrow</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-date\">Dec 08, 2015</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-catetory\">Food</span>\n                        </p>\n                    </div>\n                    <div class=\"post-body\">\n                        <p>\n                            Omnium nominati prodesset pri no. Per dolor gloriatur\n                            <span class=\"selected\"> persequer</span>\n                            is ad, te his aliquip molestie. Veri tantas ad usu, mel ne sonet quaeque assueverit. Enim eruditi euripidis his et, dictas admodum posidonium ei pro. An duo tempor maluisset honestatis. Ne cum invidunt constituto, sanctus accusam an usu, ea mandamus incorrupte mel. Pro cu purto graeco. Wisi sonet elitr eos in. Est sint magna mucius te, iudico integre gubergren no vis. Assum doming et pro, est ei inermis corpora argumentum. Eos graece sadipscing et, pri dico salutandi consetetur et, explicari voluptatum mei at. Ex cum nisl epicurei, sea in molestie theophrastus, nibh tollit apeirian no vis.\n                        </p>\n                        <a class=\"btn open-post\" href=\"post-single.html\">Read More</a>\n                    </div>\n                </div>\n                <div class=\"post\">\n                    <div class=\"post-thumbnail\">\n                        <a class=\"open-post\" href=\"post-single.html\">\n                            <img alt=\"\" src=\"assets/images/blog/3.jpg\">\n                        </a>\n                    </div>\n                    <div class=\"post-title\">\n                        <a class=\"open-post\" href=\"post-single.html\">\n                            <h2>Typography for web</h2>\n                        </a>\n                        <p class=\"post-info\">\n                            <span class=\"post-author\">Posted by John Sparrow</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-date\">Dec 08, 2015</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-catetory\">Food</span>\n                        </p>\n                    </div>\n                    <div class=\"post-body\">\n                        <p>\n                            Omnium nominati prodesset pri no. Per dolor gloriatur\n                            <span class=\"selected\"> persequer</span>\n                            is ad, te his aliquip molestie. Veri tantas ad usu, mel ne sonet quaeque assueverit. Enim eruditi euripidis his et, dictas admodum posidonium ei pro. An duo tempor maluisset honestatis. Ne cum invidunt constituto, sanctus accusam an usu, ea mandamus incorrupte mel. Pro cu purto graeco. Wisi sonet elitr eos in. Est sint magna mucius te, iudico integre gubergren no vis. Assum doming et pro, est ei inermis corpora argumentum. Eos graece sadipscing et, pri dico salutandi consetetur et, explicari voluptatum mei at. Ex cum nisl epicurei, sea in molestie theophrastus, nibh tollit apeirian no vis.\n                        </p>\n                        <a class=\"btn open-post\" href=\"post-single.html\">Read More</a>\n                    </div>\n                </div>\n                <div class=\"post\">\n                    <div class=\"post-thumbnail\">\n                        <a class=\"open-post\" href=\"post-single.html\">\n                            <img alt=\"\" src=\"assets/images/blog/2.jpg\">\n                        </a>\n                    </div>\n                    <div class=\"post-title\">\n                        <a class=\"open-post\" href=\"post-single.html\">\n                            <h2>Typography for web</h2>\n                        </a>\n                        <p class=\"post-info\">\n                            <span class=\"post-author\">Posted by John Sparrow</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-date\">Dec 08, 2015</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-catetory\">Food</span>\n                        </p>\n                    </div>\n                    <div class=\"post-body\">\n                        <p>\n                            Omnium nominati prodesset pri no. Per dolor gloriatur\n                            <span class=\"selected\"> persequer</span>\n                            is ad, te his aliquip molestie. Veri tantas ad usu, mel ne sonet quaeque assueverit. Enim eruditi euripidis his et, dictas admodum posidonium ei pro. An duo tempor maluisset honestatis. Ne cum invidunt constituto, sanctus accusam an usu, ea mandamus incorrupte mel. Pro cu purto graeco. Wisi sonet elitr eos in. Est sint magna mucius te, iudico integre gubergren no vis. Assum doming et pro, est ei inermis corpora argumentum. Eos graece sadipscing et, pri dico salutandi consetetur et, explicari voluptatum mei at. Ex cum nisl epicurei, sea in molestie theophrastus, nibh tollit apeirian no vis.\n                        </p>\n                        <a class=\"btn open-post\" href=\"post-single.html\">Read More</a>\n                    </div>\n                </div>\n                <div class=\"post\">\n                    <div class=\"post-thumbnail\">\n                        <a class=\"open-post\" href=\"post-single.html\">\n                            <img alt=\"\" src=\"assets/images/blog/1.jpg\">\n                        </a>\n                    </div>\n                    <div class=\"post-title\">\n                        <a class=\"open-post\" href=\"post-single.html\">\n                            <h2>Typography for web</h2>\n                        </a>\n                        <p class=\"post-info\">\n                            <span class=\"post-author\">Posted by John Sparrow</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-date\">Dec 08, 2015</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-catetory\">Food</span>\n                        </p>\n                    </div>\n                    <div class=\"post-body\">\n                        <p>\n                            Omnium nominati prodesset pri no. Per dolor gloriatur\n                            <span class=\"selected\"> persequer</span>\n                            is ad, te his aliquip molestie. Veri tantas ad usu, mel ne sonet quaeque assueverit. Enim eruditi euripidis his et, dictas admodum posidonium ei pro. An duo tempor maluisset honestatis. Ne cum invidunt constituto, sanctus accusam an usu, ea mandamus incorrupte mel. Pro cu purto graeco. Wisi sonet elitr eos in. Est sint magna mucius te, iudico integre gubergren no vis. Assum doming et pro, est ei inermis corpora argumentum. Eos graece sadipscing et, pri dico salutandi consetetur et, explicari voluptatum mei at. Ex cum nisl epicurei, sea in molestie theophrastus, nibh tollit apeirian no vis.\n                        </p>\n                        <a class=\"btn open-post\" href=\"post-single.html\">Read More</a>\n                    </div>\n                </div>\n                <div class=\"text-center\">\n                    <ul class=\"pagination\">\n                        <li>\n                            <a aria-label=\"Previous\" href=\"#\">\n                                <span aria-hidden=\"true\">«</span>\n                            </a>\n                        </li>\n                        <li class=\"active\">\n                            <a href=\"#\">1</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">2</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">3</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">4</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">5</a>\n                        </li>\n                        <li>\n                            <a aria-label=\"Next\" href=\"#\">\n                                <span aria-hidden=\"true\">»</span>\n                            </a>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n    </section>\n</div>\n"
+module.exports = "<div class=\"content-blocks blog {{contentBlocksClass}} {{blockClass}}\">\n    <section class=\"content\">\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">My Blog</h3>\n            <div class=\"col-md-10 col-md-offset-1\">\n                <div class=\"post\" *ngFor=\"let blog of blogSubscription | async\">\n                    <div class=\"post-thumbnail\">\n                        <a class=\"open-post\" >\n                            <img alt=\"\" src=\"{{blog.image}}\">\n                        </a>\n                    </div>\n                    <div class=\"post-title\">\n                        <a class=\"open-post\" href=\"post-single.html\">\n                            <h2>{{blog.title}}</h2>\n                        </a>\n                        <p class=\"post-info\">\n                            <span class=\"post-author\">Posted by Filipe.</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-date\">{{blog.updateTime | amTimeAgo}}</span>\n                            <span class=\"slash\"></span>\n                            <span class=\"post-catetory\">{{blog.tags}}</span>\n                        </p>\n                    </div>\n                    <div class=\"post-body\">\n                        <p>\n                            Omnium nominati prodesset pri no. Per dolor gloriatur\n                            <span class=\"selected\"> persequer</span>\n                            is ad, te his aliquip molestie. Veri tantas ad usu, mel ne sonet quaeque assueverit. Enim eruditi euripidis his et, dictas admodum posidonium ei pro. An duo tempor maluisset honestatis. Ne cum invidunt constituto, sanctus accusam an usu, ea mandamus incorrupte mel. Pro cu purto graeco. Wisi sonet elitr eos in. Est sint magna mucius te, iudico integre gubergren no vis. Assum doming et pro, est ei inermis corpora argumentum. Eos graece sadipscing et, pri dico salutandi consetetur et, explicari voluptatum mei at. Ex cum nisl epicurei, sea in molestie theophrastus, nibh tollit apeirian no vis.\n                        </p>\n                        <a class=\"btn open-post\" >Read More</a>\n                    </div>\n                </div>\n\n                <!-- <div class=\"text-center\">\n                    <ul class=\"pagination\">\n                        <li>\n                            <a aria-label=\"Previous\" href=\"#\">\n                                <span aria-hidden=\"true\">«</span>\n                            </a>\n                        </li>\n                        <li class=\"active\">\n                            <a href=\"#\">1</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">2</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">3</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">4</a>\n                        </li>\n                        <li>\n                            <a href=\"#\">5</a>\n                        </li>\n                        <li>\n                            <a aria-label=\"Next\" href=\"#\">\n                                <span aria-hidden=\"true\">»</span>\n                            </a>\n                        </li>\n                    </ul>\n                </div> -->\n            </div>\n        </div>\n    </section>\n</div>\n"
 
 /***/ }),
 
@@ -208,6 +488,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlockBlogComponent", function() { return BlockBlogComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_pub_sub_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../_services/pub-sub.service */ "./src/app/_services/pub-sub.service.ts");
+/* harmony import */ var _services_database_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../_services/database.service */ "./src/app/_services/database.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -219,10 +500,13 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
+
 var BlockBlogComponent = /** @class */ (function () {
-    function BlockBlogComponent(pubSubService) {
+    function BlockBlogComponent(pubSubService, db) {
         this.pubSubService = pubSubService;
+        this.db = db;
         this.block = 'blog';
+        this.blogSubscription = [];
         this.contentBlocksClass = 'hidex';
         this.blockClass = '';
     }
@@ -231,11 +515,13 @@ var BlockBlogComponent = /** @class */ (function () {
         this.contentBlocksSubscription = this.pubSubService.on('hideAllAndShowOne').subscribe(function (block) { return _this.showBlock(block); });
         this.showBlockAboutSubscription = this.pubSubService.on('showBlockBlog').subscribe(function () { return _this.openBlock(); });
         this.closeMenuSubscription = this.pubSubService.on('closeMenu').subscribe(function () { return _this.showBlock('none'); });
+        this.blogSubscription = this.db.blog;
     };
     BlockBlogComponent.prototype.ngOnDestroy = function () {
         this.contentBlocksSubscription.unsubscribe();
         this.showBlockAboutSubscription.unsubscribe();
         this.closeMenuSubscription.unsubscribe();
+        this.blogSubscription.unsubscribe();
     };
     BlockBlogComponent.prototype.showBlock = function (block) {
         this.contentBlocksClass = 'hidex';
@@ -254,7 +540,7 @@ var BlockBlogComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./block-blog.component.html */ "./src/app/_components/block-blog/block-blog.component.html"),
             styles: [__webpack_require__(/*! ./block-blog.component.scss */ "./src/app/_components/block-blog/block-blog.component.scss")]
         }),
-        __metadata("design:paramtypes", [_services_pub_sub_service__WEBPACK_IMPORTED_MODULE_1__["PubSubService"]])
+        __metadata("design:paramtypes", [_services_pub_sub_service__WEBPACK_IMPORTED_MODULE_1__["PubSubService"], _services_database_service__WEBPACK_IMPORTED_MODULE_2__["DatabaseService"]])
     ], BlockBlogComponent);
     return BlockBlogComponent;
 }());
@@ -270,7 +556,7 @@ var BlockBlogComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"content-blocks contact {{contentBlocksClass}} {{blockClass}}\">\n    <section class=\"content\">\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Get in touch</h3>\n            <div class=\"row\">\n                <div class=\"col-md-6\">\n                    <div class=\"contact-content \">\n                        <div class=\"contact-icon\">\n                            <i class=\"fa fa-map-marker\"></i>\n                        </div>\n                        <div class=\"contact-details\">\n                            <h5>Address</h5>\n                            <p>234, London Street, EL10 6 BG</p>\n                        </div>\n                    </div>\n                    <div class=\"contact-content \">\n                        <div class=\"contact-icon\">\n                            <i class=\"fa fa-phone\"></i>\n                        </div>\n                        <div class=\"contact-details\">\n                            <h5>Call Us</h5>\n                            <p> +44 - 02920111222</p>\n                        </div>\n                    </div>\n                    <div class=\"contact-content \">\n                        <div class=\"contact-icon\">\n                            <i class=\"fa fa-envelope\"></i>\n                        </div>\n                        <div class=\"contact-details\">\n                            <h5>Enquiries</h5>\n                            <p>hello@james.com</p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-md-6\">\n                    <form id=\"formcontactus\" class=\"\" action=\"php/contact_me.php\" method=\"POST\">\n                        <div class=\"form-group\">\n                            <input class=\"form-control requiretop\" type=\"text\" placeholder=\"* Your Name\" name=\"name\">\n                        </div>\n                        <div class=\"form-group\">\n                            <input class=\"form-control requiretop\" type=\"email\" placeholder=\"* Your Email\" name=\"email\">\n                        </div>\n                        <div class=\"form-group\">\n                            <textarea class=\"form-control requiretop\" placeholder=\"* Your Message\" name=\"message\" rows=\"6\"></textarea>\n                        </div>\n                        <div class=\"form-group\">\n                            <button class=\"btn btn-dark selected\" type=\"submit\">Send Message</button>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </section>\n</div>\n"
+module.exports = "<div class=\"content-blocks contact {{contentBlocksClass}} {{blockClass}}\">\n    <section class=\"content\">\n        <div class=\"block-content\">\n            <h3 class=\"block-title\">Get in touch</h3>\n            <div class=\"row\">\n                <div class=\"col-md-6\">\n                    <div class=\"contact-content \">\n                        <div class=\"contact-icon\">\n                            <i class=\"fa fa-map-marker\"></i>\n                        </div>\n                        <div class=\"contact-details\">\n                            <h5>Address</h5>\n                            <p>{{profile.address}}</p>\n                        </div>\n                    </div>\n                    <div class=\"contact-content \">\n                        <div class=\"contact-icon\">\n                            <i class=\"fa fa-phone\"></i>\n                        </div>\n                        <div class=\"contact-details\">\n                            <h5>Call Us</h5>\n                            <p> {{profile.phone}}</p>\n                        </div>\n                    </div>\n                    <div class=\"contact-content \">\n                        <div class=\"contact-icon\">\n                            <i class=\"fa fa-envelope\"></i>\n                        </div>\n                        <div class=\"contact-details\">\n                            <h5>Enquiries</h5>\n                            <p> {{profile.email}}</p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-md-6\">\n                    <form id=\"formcontactus\" class=\"\" onsubmit=\"event.preventDefault();\">\n                        <div class=\"form-group\">\n                            <input class=\"form-control requiretop\" type=\"text\" placeholder=\"* Your Name\" name=\"name\" [(ngModel)]=\"name\">\n                        </div>\n                        <div class=\"form-group\">\n                            <input class=\"form-control requiretop\" type=\"email\" placeholder=\"* Your Email\" name=\"email\" [(ngModel)]=\"email\">\n                        </div>\n                        <div class=\"form-group\">\n                            <textarea class=\"form-control requiretop\" placeholder=\"* Your Message\" name=\"message\" rows=\"6\" [(ngModel)]=\"body\"></textarea>\n                        </div>\n                        <div class=\"form-group\">\n                            <a class=\"btn btn-dark selected\" href=\"mailto:{{email}}?subject={{name}}&body={{body}}\">Send Message</a>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </section>\n</div>\n"
 
 /***/ }),
 
@@ -297,6 +583,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlockContactComponent", function() { return BlockContactComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _services_pub_sub_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../_services/pub-sub.service */ "./src/app/_services/pub-sub.service.ts");
+/* harmony import */ var _services_database_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../_services/database.service */ "./src/app/_services/database.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -308,23 +595,56 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
+
 var BlockContactComponent = /** @class */ (function () {
-    function BlockContactComponent(pubSubService) {
+    function BlockContactComponent(pubSubService, db) {
         this.pubSubService = pubSubService;
+        this.db = db;
         this.block = 'contact';
+        this.name = '';
+        this.email = '';
+        this.body = '';
+        this.profileSubscription = [];
         this.contentBlocksClass = 'hidex';
         this.blockClass = '';
+        this.profile = {
+            name: '',
+            about: '',
+            address: '',
+            birth_date: '',
+            email: '',
+            interests: '',
+            phone: '',
+            skype: ''
+        };
+        this.profile = {
+            name: '',
+            about: '',
+            address: '',
+            birth_date: '',
+            email: '',
+            interests: '',
+            phone: '',
+            skype: ''
+        };
     }
     BlockContactComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.contentBlocksSubscription = this.pubSubService.on('hideAllAndShowOne').subscribe(function (block) { return _this.showBlock(block); });
         this.showBlockAboutSubscription = this.pubSubService.on('showBlockContact').subscribe(function () { return _this.openBlock(); });
         this.closeMenuSubscription = this.pubSubService.on('closeMenu').subscribe(function () { return _this.showBlock('none'); });
+        this.profileSubscription = this.db.profile.subscribe(function (data) {
+            if (data && Array.isArray(data) && data[0]) {
+                _this.profile = data[0];
+                _this.email = _this.profile.email;
+            }
+        });
     };
     BlockContactComponent.prototype.ngOnDestroy = function () {
         this.contentBlocksSubscription.unsubscribe();
         this.showBlockAboutSubscription.unsubscribe();
         this.closeMenuSubscription.unsubscribe();
+        this.profileSubscription.unsubscribe();
     };
     BlockContactComponent.prototype.showBlock = function (block) {
         this.contentBlocksClass = 'hidex';
@@ -343,7 +663,7 @@ var BlockContactComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./block-contact.component.html */ "./src/app/_components/block-contact/block-contact.component.html"),
             styles: [__webpack_require__(/*! ./block-contact.component.scss */ "./src/app/_components/block-contact/block-contact.component.scss")]
         }),
-        __metadata("design:paramtypes", [_services_pub_sub_service__WEBPACK_IMPORTED_MODULE_1__["PubSubService"]])
+        __metadata("design:paramtypes", [_services_pub_sub_service__WEBPACK_IMPORTED_MODULE_1__["PubSubService"], _services_database_service__WEBPACK_IMPORTED_MODULE_2__["DatabaseService"]])
     ], BlockContactComponent);
     return BlockContactComponent;
 }());
@@ -1271,26 +1591,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
-/* harmony import */ var angularfire2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! angularfire2 */ "./node_modules/angularfire2/index.js");
-/* harmony import */ var angularfire2_firestore__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! angularfire2/firestore */ "./node_modules/angularfire2/firestore/index.js");
-/* harmony import */ var angularfire2_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! angularfire2/storage */ "./node_modules/angularfire2/storage/index.js");
-/* harmony import */ var angularfire2_auth__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! angularfire2/auth */ "./node_modules/angularfire2/auth/index.js");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _pages_home_home_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./_pages/home/home.component */ "./src/app/_pages/home/home.component.ts");
-/* harmony import */ var _pages_blog_blog_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./_pages/blog/blog.component */ "./src/app/_pages/blog/blog.component.ts");
-/* harmony import */ var _components_preloader_preloader_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./_components/preloader/preloader.component */ "./src/app/_components/preloader/preloader.component.ts");
-/* harmony import */ var _components_inline_menu_inline_menu_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./_components/inline-menu/inline-menu.component */ "./src/app/_components/inline-menu/inline-menu.component.ts");
-/* harmony import */ var _components_block_menu_block_menu_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./_components/block-menu/block-menu.component */ "./src/app/_components/block-menu/block-menu.component.ts");
-/* harmony import */ var _components_block_about_block_about_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./_components/block-about/block-about.component */ "./src/app/_components/block-about/block-about.component.ts");
-/* harmony import */ var _components_block_portfolio_block_portfolio_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./_components/block-portfolio/block-portfolio.component */ "./src/app/_components/block-portfolio/block-portfolio.component.ts");
-/* harmony import */ var _components_block_blog_block_blog_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./_components/block-blog/block-blog.component */ "./src/app/_components/block-blog/block-blog.component.ts");
-/* harmony import */ var _components_block_contact_block_contact_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./_components/block-contact/block-contact.component */ "./src/app/_components/block-contact/block-contact.component.ts");
-/* harmony import */ var _components_block_name_block_name_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./_components/block-name/block-name.component */ "./src/app/_components/block-name/block-name.component.ts");
-/* harmony import */ var _services_pub_sub_service__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./_services/pub-sub.service */ "./src/app/_services/pub-sub.service.ts");
-/* harmony import */ var _services_database_service__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./_services/database.service */ "./src/app/_services/database.service.ts");
-/* harmony import */ var _pipes_ellipsis_pipe__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./_pipes/ellipsis.pipe */ "./src/app/_pipes/ellipsis.pipe.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var angularfire2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! angularfire2 */ "./node_modules/angularfire2/index.js");
+/* harmony import */ var angularfire2_firestore__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! angularfire2/firestore */ "./node_modules/angularfire2/firestore/index.js");
+/* harmony import */ var angularfire2_storage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! angularfire2/storage */ "./node_modules/angularfire2/storage/index.js");
+/* harmony import */ var angularfire2_auth__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! angularfire2/auth */ "./node_modules/angularfire2/auth/index.js");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/index.js");
+/* harmony import */ var angular2_moment__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! angular2-moment */ "./node_modules/angular2-moment/index.js");
+/* harmony import */ var angular2_moment__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(angular2_moment__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _pages_home_home_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./_pages/home/home.component */ "./src/app/_pages/home/home.component.ts");
+/* harmony import */ var _pages_blog_blog_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./_pages/blog/blog.component */ "./src/app/_pages/blog/blog.component.ts");
+/* harmony import */ var _components_preloader_preloader_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./_components/preloader/preloader.component */ "./src/app/_components/preloader/preloader.component.ts");
+/* harmony import */ var _components_inline_menu_inline_menu_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./_components/inline-menu/inline-menu.component */ "./src/app/_components/inline-menu/inline-menu.component.ts");
+/* harmony import */ var _components_block_menu_block_menu_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./_components/block-menu/block-menu.component */ "./src/app/_components/block-menu/block-menu.component.ts");
+/* harmony import */ var _components_block_about_block_about_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./_components/block-about/block-about.component */ "./src/app/_components/block-about/block-about.component.ts");
+/* harmony import */ var _components_block_portfolio_block_portfolio_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./_components/block-portfolio/block-portfolio.component */ "./src/app/_components/block-portfolio/block-portfolio.component.ts");
+/* harmony import */ var _components_block_blog_block_blog_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./_components/block-blog/block-blog.component */ "./src/app/_components/block-blog/block-blog.component.ts");
+/* harmony import */ var _components_block_contact_block_contact_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./_components/block-contact/block-contact.component */ "./src/app/_components/block-contact/block-contact.component.ts");
+/* harmony import */ var _components_block_name_block_name_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./_components/block-name/block-name.component */ "./src/app/_components/block-name/block-name.component.ts");
+/* harmony import */ var _services_pub_sub_service__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./_services/pub-sub.service */ "./src/app/_services/pub-sub.service.ts");
+/* harmony import */ var _services_database_service__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./_services/database.service */ "./src/app/_services/database.service.ts");
+/* harmony import */ var _pipes_ellipsis_pipe__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./_pipes/ellipsis.pipe */ "./src/app/_pipes/ellipsis.pipe.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1302,7 +1625,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 // PACKAGES
+
 
 
 
@@ -1333,31 +1658,33 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"],
-                _pages_home_home_component__WEBPACK_IMPORTED_MODULE_11__["HomeComponent"],
-                _pages_blog_blog_component__WEBPACK_IMPORTED_MODULE_12__["BlogComponent"],
-                _components_preloader_preloader_component__WEBPACK_IMPORTED_MODULE_13__["PreloaderComponent"],
-                _components_inline_menu_inline_menu_component__WEBPACK_IMPORTED_MODULE_14__["InlineMenuComponent"],
-                _components_block_menu_block_menu_component__WEBPACK_IMPORTED_MODULE_15__["BlockMenuComponent"],
-                _components_block_about_block_about_component__WEBPACK_IMPORTED_MODULE_16__["BlockAboutComponent"],
-                _components_block_portfolio_block_portfolio_component__WEBPACK_IMPORTED_MODULE_17__["BlockPortfolioComponent"],
-                _components_block_blog_block_blog_component__WEBPACK_IMPORTED_MODULE_18__["BlockBlogComponent"],
-                _components_block_contact_block_contact_component__WEBPACK_IMPORTED_MODULE_19__["BlockContactComponent"],
-                _components_block_name_block_name_component__WEBPACK_IMPORTED_MODULE_20__["BlockNameComponent"],
-                _pipes_ellipsis_pipe__WEBPACK_IMPORTED_MODULE_23__["EllipsisPipe"]
+                _app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"],
+                _pages_home_home_component__WEBPACK_IMPORTED_MODULE_13__["HomeComponent"],
+                _pages_blog_blog_component__WEBPACK_IMPORTED_MODULE_14__["BlogComponent"],
+                _components_preloader_preloader_component__WEBPACK_IMPORTED_MODULE_15__["PreloaderComponent"],
+                _components_inline_menu_inline_menu_component__WEBPACK_IMPORTED_MODULE_16__["InlineMenuComponent"],
+                _components_block_menu_block_menu_component__WEBPACK_IMPORTED_MODULE_17__["BlockMenuComponent"],
+                _components_block_about_block_about_component__WEBPACK_IMPORTED_MODULE_18__["BlockAboutComponent"],
+                _components_block_portfolio_block_portfolio_component__WEBPACK_IMPORTED_MODULE_19__["BlockPortfolioComponent"],
+                _components_block_blog_block_blog_component__WEBPACK_IMPORTED_MODULE_20__["BlockBlogComponent"],
+                _components_block_contact_block_contact_component__WEBPACK_IMPORTED_MODULE_21__["BlockContactComponent"],
+                _components_block_name_block_name_component__WEBPACK_IMPORTED_MODULE_22__["BlockNameComponent"],
+                _pipes_ellipsis_pipe__WEBPACK_IMPORTED_MODULE_25__["EllipsisPipe"]
             ],
             imports: [
-                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__["NgbModule"].forRoot(),
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_9__["NgbModule"].forRoot(),
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["AppRoutingModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["BrowserAnimationsModule"],
-                angularfire2__WEBPACK_IMPORTED_MODULE_4__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_0__["environment"].firebase),
-                angularfire2_firestore__WEBPACK_IMPORTED_MODULE_5__["AngularFirestoreModule"],
-                angularfire2_auth__WEBPACK_IMPORTED_MODULE_7__["AngularFireAuthModule"],
-                angularfire2_storage__WEBPACK_IMPORTED_MODULE_6__["AngularFireStorageModule"] // imports firebase/storage only needed for storage features
+                angularfire2__WEBPACK_IMPORTED_MODULE_5__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_0__["environment"].firebase),
+                angularfire2_firestore__WEBPACK_IMPORTED_MODULE_6__["AngularFirestoreModule"],
+                angularfire2_auth__WEBPACK_IMPORTED_MODULE_8__["AngularFireAuthModule"],
+                angularfire2_storage__WEBPACK_IMPORTED_MODULE_7__["AngularFireStorageModule"],
+                angular2_moment__WEBPACK_IMPORTED_MODULE_10__["MomentModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"]
             ],
-            providers: [_services_pub_sub_service__WEBPACK_IMPORTED_MODULE_21__["PubSubService"], _services_database_service__WEBPACK_IMPORTED_MODULE_22__["DatabaseService"]],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]]
+            providers: [_services_pub_sub_service__WEBPACK_IMPORTED_MODULE_23__["PubSubService"], _services_database_service__WEBPACK_IMPORTED_MODULE_24__["DatabaseService"]],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_12__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
