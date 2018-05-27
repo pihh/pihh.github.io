@@ -159,9 +159,33 @@ angularfire2@5.0.0-rc.10
 MIT
 MIT
 
+desandro-matches-selector@2.0.2
+MIT
+MIT
+
+ev-emitter@1.1.1
+MIT
+MIT
+
 firebase@5.0.3
 Apache-2.0
 Apache-2.0
+
+fizzy-ui-utils@2.0.7
+MIT
+MIT
+
+get-size@2.0.3
+MIT
+MIT
+
+imagesloaded@4.1.4
+MIT
+MIT
+
+masonry-layout@4.2.1
+MIT
+MIT
 
 moment@2.22.1
 MIT
@@ -187,6 +211,14 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+ngx-masonry@1.1.2
+MIT
+MIT
+
+outlayer@2.1.1
+MIT
+MIT
 
 rxjs@6.2.0
 Apache-2.0
