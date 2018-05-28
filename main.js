@@ -1123,7 +1123,7 @@ var InlineMenuComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"preloader\" [@fadeOutAnimation]>\n    <div class=\"spinner\">\n        <strong>\n            Loading...\n            <br />\n            <i class=\"fa-li fa fa-spinner fa-spin\"></i>\n        </strong>\n    </div>\n</div>\n<div class=\"preloader-left slide-left\" [ngClass]=\"leftClass\"></div>\n<div class=\"preloader-right slide-right\" [ngClass]=\"rightClass\"></div>\n"
+module.exports = "<div class=\"preloader\" [@fadeOutAnimation]>\n    <div class=\"spinner\">\n        <strong>\n            <b>Note:</b> Website under construction, signature and download CV not available.\n            <br />\n            Loading...\n            <br />\n            <i class=\"fa-li fa fa-spinner fa-spin\"></i>\n        </strong>\n    </div>\n</div>\n<div class=\"preloader-left slide-left\" [ngClass]=\"leftClass\"></div>\n<div class=\"preloader-right slide-right\" [ngClass]=\"rightClass\"></div>\n"
 
 /***/ }),
 
